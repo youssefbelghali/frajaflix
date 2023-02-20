@@ -1,0 +1,944 @@
+.App{
+    background-color: black;
+}
+.hasni{
+    display: flex;
+    margin-top: 10px;
+}
+
+h3{
+    margin-left: 25px;
+    color: rgb(117, 69, 165);
+ 
+}
+.sancopi{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+ }
+.nav{
+    display: flex;
+    
+    height: 70px;
+}
+
+.josh{
+    text-decoration: none;
+}
+
+.anov{
+    margin-top: 15px;
+    margin-left: 400px;
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    border: none;
+}
+.tree{
+     
+    margin-top: 12px;
+    margin-left: 280px;
+    width: 57px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color:  rgb(117, 69, 165);
+}
+
+.wrapperz,
+.cardz{
+    height: 450px;
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+.wrapperz{
+    perspective: 900px;
+}
+
+.cardz{
+    text-align: center;
+    transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+    transform-style: preserve-3d;
+}
+
+.wrapperz:hover .cardz{
+    transform: rotateY(180deg);
+}
+
+.item-frontz,
+.item-backz{
+    width: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.item-frontz{
+    cursor: pointer;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 25px;
+   background: url(https://i.ebayimg.com/images/g/CA8AAOSweOhh50om/s-l1600.jpg) center center;
+    background-size: cover;
+
+}
+
+
+
+.item-backz{
+    transform: rotateY(180deg);
+    position: absolute;
+    border-radius: 25px;
+    height: 450px;
+    background: #fff;
+}
+
+.contentz{
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item-titlez h3{
+color: #26323b;
+font-size: 35px;
+margin-bottom: 15px;
+font-weight: 700;
+}
+
+.item-titlez h4 {
+font-weight: 500;
+}
+
+.item-textz{
+    margin: 25px 0 40px;
+    margin-top: 25px;
+}
+ 
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+li:last-child {
+    margin-right: 15px;
+}
+
+
+
+.wrappere,
+.carde{
+    height: 450px;
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+.wrappere{
+    perspective: 900px;
+}
+
+.carde{
+    text-align: center;
+    transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+    transform-style: preserve-3d;
+}
+
+.wrappere:hover .carde{
+    transform: rotateY(180deg);
+}
+
+.item-fronte,
+.item-backe{
+    width: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.item-fronte{
+    cursor: pointer;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 25px;
+   background: url(https://th.bing.com/th/id/OIP.o6YDid_D3wnNdgFZwIZkiAHaLH?w=115&h=180&c=7&r=0&o=5&dpr=2.5&pid=1.7) center center;
+    background-size: cover;
+
+}
+
+
+
+.item-backe{
+    transform: rotateY(180deg);
+    position: absolute;
+    border-radius: 25px;
+    height: 450px;
+    background: #fff;
+}
+
+.contente{
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item-titlee h3{
+color: #26323b;
+font-size: 35px;
+margin-bottom: 15px;
+font-weight: 700;
+}
+
+.item-titlee h4 {
+font-weight: 500;
+}
+
+.item-texte{
+    margin: 25px 0 40px;
+    margin-top: 25px;
+}
+ 
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+li:last-child {
+    margin-right: 15px;
+}
+.wrapperee,
+.cardee{
+    height: 450px;
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+.wrapperee{
+    perspective: 900px;
+}
+
+.cardee{
+    text-align: center;
+    transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+    transform-style: preserve-3d;
+}
+
+.wrapperee:hover .cardee{
+    transform: rotateY(180deg);
+}
+
+.item-frontee,
+.item-backee{
+    width: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.item-frontee{
+    cursor: pointer;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 25px;
+   background: url(https://th.bing.com/th/id/OIP.rgv5aMoYDcd1_5p1_EM8tgAAAA?w=115&h=180&c=7&r=0&o=5&dpr=2.5&pid=1.7) center center;
+    background-size: cover;
+
+}
+
+
+
+.item-backee{
+    transform: rotateY(180deg);
+    position: absolute;
+    border-radius: 25px;
+    height: 450px;
+    background: #fff;
+}
+
+.contentee{
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item-titleee h3{
+color: #26323b;
+font-size: 35px;
+margin-bottom: 15px;
+font-weight: 700;
+}
+
+.item-titleee h4 {
+font-weight: 500;
+}
+
+.item-textee{
+    margin: 25px 0 40px;
+    margin-top: 25px;
+}
+ 
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+li:last-child {
+    margin-right: 15px;
+}
+
+ 
+
+
+ 
+.wrappers,
+.cards{
+    height: 450px;
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+.wrappers{
+    perspective: 900px;
+}
+
+.cards{
+    text-align: center;
+    transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+    transform-style: preserve-3d;
+}
+
+.wrappers:hover .cards{
+    transform: rotateY(180deg);
+}
+
+.item-fronts,
+.item-backs{
+    width: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.item-fronts{
+    cursor: pointer;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 25px;
+   background: url(https://th.bing.com/th/id/OIP.dzSpSCSyflnb1vEU0wdT6AHaLH?w=182&h=273&c=7&r=0&o=5&dpr=2.5&pid=1.7) center center;
+    background-size: cover;
+
+}
+
+
+
+.item-backs{
+    transform: rotateY(180deg);
+    position: absolute;
+    border-radius: 25px;
+    height: 450px;
+    background: #fff;
+}
+
+.contents{
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item-titles h3{
+color: #26323b;
+font-size: 35px;
+margin-bottom: 15px;
+font-weight: 700;
+}
+
+.item-titles h4 {
+font-weight: 500;
+}
+
+.item-texts{
+    margin: 25px 0 40px;
+   
+}
+ 
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+li:last-child {
+    margin-right: 15px;
+}
+
+ 
+.wrapper21,
+.card21{
+    height: 450px;
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+.wrapper21{
+    perspective: 900px;
+}
+
+.card21{
+    text-align: center;
+    transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+    transform-style: preserve-3d;
+}
+
+.wrapper21:hover .card21{
+    transform: rotateY(180deg);
+}
+
+.item-front21,
+.item-back21{
+    width: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.item-front21{
+    cursor: pointer;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 25px;
+   background: url(https://www.monolith.pl/wp-content/uploads/2021/07/john-wick-2-john-wick-2.jpg) center center;
+    background-size: cover;
+
+}
+
+
+
+.item-back21{
+    transform: rotateY(180deg);
+    position: absolute;
+    border-radius: 25px;
+    height: 450px;
+    background: #fff;
+}
+
+.content21{
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item-title21 h3{
+color: #26323b;
+font-size: 35px;
+margin-bottom: 15px;
+font-weight: 700;
+}
+
+.item-title21 h4 {
+font-weight: 500;
+}
+
+.item-text21{
+    margin: 25px 0 40px;
+   
+}
+ 
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+li:last-child {
+    margin-right: 15px;
+}
+
+
+.wrapper05,
+.card05{
+    height: 450px;
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+.wrapper05{
+    perspective: 900px;
+}
+
+.card05{
+    text-align: center;
+    transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+    transform-style: preserve-3d;
+}
+
+.wrapper05:hover .card05{
+    transform: rotateY(180deg);
+}
+
+.item-front05,
+.item-back05{
+    width: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.item-front05{
+    cursor: pointer;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 25px;
+   background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9eNbn7bQf47k_r2h3zS32lWJwKMIWhpBa8A&usqp=CAU) center center;
+    background-size: cover;
+
+}
+
+
+
+.item-back05{
+    transform: rotateY(180deg);
+    position: absolute;
+    border-radius: 25px;
+    height: 450px;
+    background: #fff;
+}
+
+.content05{
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item-title05 h3{
+color: #26323b;
+font-size: 35px;
+margin-bottom: 15px;
+font-weight: 700;
+}
+
+.item-title05 h4 {
+font-weight: 500;
+}
+
+.item-text05{
+    margin: 25px 0 40px;
+   
+}
+ 
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+li:last-child {
+    margin-right: 15px;
+}
+
+.wrapper07,
+.card07{
+    height: 450px;
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+.wrapper07{
+    perspective: 900px;
+}
+
+.card07{
+    text-align: center;
+    transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+    transform-style: preserve-3d;
+}
+
+.wrapper07:hover .card07{
+    transform: rotateY(180deg);
+}
+
+.item-front07,
+.item-back07{
+    width: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.item-front07{
+    cursor: pointer;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 25px;
+   background: url(https://cdn.shopify.com/s/files/1/1057/4964/products/Harry-Potter-and-the-Chamber-of-Secrets-Vintage-Movie-Poster-Original-1-Sheet-27x41_f7fb1165-59aa-471b-a393-1863a7a7a12d_600x.jpg?v=1660626179) center center;
+    background-size: cover;
+
+}
+
+
+
+.item-back07{
+    transform: rotateY(180deg);
+    position: absolute;
+    border-radius: 25px;
+    height: 450px;
+    background: #fff;
+}
+
+.content07{
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item-title07 h3{
+color: #26323b;
+font-size: 35px;
+margin-bottom: 15px;
+font-weight: 700;
+}
+
+.item-title07 h4 {
+font-weight: 500;
+}
+
+.item-text07{
+    margin: 25px 0 40px;
+   
+}
+ 
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+li:last-child {
+    margin-right: 15px;
+}
+
+.wrapper08,
+.card08{
+    height: 450px;
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+.wrapper08{
+    perspective: 900px;
+}
+
+.card08{
+    text-align: center;
+    transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+    transform-style: preserve-3d;
+}
+
+.wrapper08:hover .card08{
+    transform: rotateY(180deg);
+}
+
+.item-front08,
+.item-back08{
+    width: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.item-front08{
+    cursor: pointer;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 25px;
+   background: url(https://cdn.cinematerial.com/p/297x/haeorwgk/1917-british-movie-poster-md.jpg?v=1579166770) center center;
+    background-size: cover;
+
+}
+
+
+
+.item-back08{
+    transform: rotateY(180deg);
+    position: absolute;
+    border-radius: 25px;
+    height: 450px;
+    background: #fff;
+}
+
+.content08{
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item-title08 h3{
+color: #26323b;
+font-size: 35px;
+margin-bottom: 15px;
+font-weight: 700;
+}
+
+.item-title08 h4 {
+font-weight: 500;
+}
+
+.item-text08{
+    margin: 25px 0 40px;
+   
+}
+ 
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+li:last-child {
+    margin-right: 15px;
+}
+
+.wrapper09,
+.card09{
+    height: 450px;
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+.wrapper09{
+    perspective: 900px;
+}
+
+.card09{
+    text-align: center;
+    transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+    transform-style: preserve-3d;
+}
+
+.wrapper09:hover .card09{
+    transform: rotateY(180deg);
+}
+
+.item-front09,
+.item-back09{
+    width: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.item-front09{
+    cursor: pointer;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 25px;
+   background: url(https://m.media-amazon.com/images/I/41YHNBJW24L._AC_SY580_.jpg) center center;
+    background-size: cover;
+
+}
+
+
+
+.item-back09{
+    transform: rotateY(180deg);
+    position: absolute;
+    border-radius: 25px;
+    height: 450px;
+    background: #fff;
+}
+
+.content09{
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item-title09 h3{
+color: #26323b;
+font-size: 35px;
+margin-bottom: 15px;
+font-weight: 700;
+}
+
+.item-title09 h4 {
+font-weight: 500;
+}
+
+.item-text09{
+    margin: 25px 0 40px;
+   
+}
+ 
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+li:last-child {
+    margin-right: 15px;
+}
+
+.wrapper10,
+.card10{
+    height: 450px;
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+.wrapper10{
+    perspective: 900px;
+}
+
+.card10{
+    text-align: center;
+    transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+    transform-style: preserve-3d;
+}
+
+.wrapper10:hover .card10{
+    transform: rotateY(180deg);
+}
+
+.item-front10,
+.item-back10{
+    width: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.item-front10{
+    cursor: pointer;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 25px;
+   background: url(https://m.media-amazon.com/images/M/MV5BZWYzOGEwNTgtNWU3NS00ZTQ0LWJkODUtMmVhMjIwMjA1ZmQwXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg) center center;
+    background-size: cover;
+
+}
+
+
+
+.item-back10{
+    transform: rotateY(180deg);
+    position: absolute;
+    border-radius: 25px;
+    height: 450px;
+    background: #fff;
+}
+
+.content10{
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item-title10 h3{
+color: #26323b;
+font-size: 35px;
+margin-bottom: 15px;
+font-weight: 700;
+}
+
+.item-title10 h4 {
+font-weight: 500;
+}
+
+.item-text10{
+    margin: 25px 0 40px;
+   
+}
+ 
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+li:last-child {
+    margin-right: 15px;
+}

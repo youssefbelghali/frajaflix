@@ -1,0 +1,46 @@
+.nav{
+    
+    display: flex;
+}
+
+.inp{
+
+   display: flex;
+   margin-left: 50px;
+   margin-top: 15px;
+   width: 300px;
+   height: 30px;
+   border-radius: 5px;
+   border-style:  gold;
+   border-width: 1px ;
+
+}
+
+.nm{
+
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: red;
+    font-family: "Audiowide", sans-serif;
+}
+
+.signi{
+
+     margin-top: 15px;
+     margin-left:600px;
+     text-decoration: underline;
+     color: gold;
+
+}
+
+.signu{
+
+    display: flex;
+    
+    margin-top: 10px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 5px ;
+    
+}
